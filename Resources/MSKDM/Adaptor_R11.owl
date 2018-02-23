@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/parap/ontologies/2017/2/AdaptorR11.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/parap/ontologies/2017/2/AdaptorR11.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/parap/ontologies/2017/2/AdaptorR11.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
+    <Prefix name="adaptorr7" IRI="http://www.semanticweb.org/parap/ontologies/2017/2/AdaptorR7.owl#"/>
+    <Prefix name="LADMOntology" IRI="http://wiki.tudelft.nl/pub/Research/ISO19152/ImplementationMaterial/LADMOntology.owl#"/>
+    <Declaration>
+        <Class IRI="#SocialUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimaticCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RolePlayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FragmentedPastureland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoundaryFace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VersionedObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgriculturalLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomesticEcosystem"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#share"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PartyFacesCondRRR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstractRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boundary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTotalShare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomesteadComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polyline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polygon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndLifeVersion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtificialArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RightFavoredByCondRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CondRightFavorsRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstractCurve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConditionalRestriction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasShare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rectangle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RRR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CondRestrictionHindersRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnofficialLandUseRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstractPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RightHinderedByCondRestriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BAUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enkutoto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MSKOSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetationCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConditionalRight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBeginLifeVersion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WildlifeEcosystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConditionalRRR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrazingLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialSource"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AbstractCurve"/>
+        <Class IRI="#SpatialUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbstractPoint"/>
+        <Class IRI="#SpatialUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbstractRegion"/>
+        <Class IRI="#SpatialUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activity"/>
+        <Class IRI="#RRR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgriculturalLand"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtificialArea"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAUnit"/>
+        <Class IRI="#RolePlayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAUnit"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boundary"/>
+        <Class IRI="#BoundaryFace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoundaryFace"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circle"/>
+        <Class IRI="#AbstractRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimaticCharacteristic"/>
+        <Class IRI="#ConditionalRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimaticCharacteristic"/>
+        <Class IRI="#ConditionalRight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConditionalRestriction"/>
+        <Class IRI="#ConditionalRRR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConditionalRight"/>
+        <Class IRI="#ConditionalRRR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DomesticEcosystem"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enkutoto"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FragmentedPastureland"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrazingLand"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomesteadComponent"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <Class IRI="#AbstractCurve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MSKOSource"/>
+        <Class IRI="#SpatialSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point"/>
+        <Class IRI="#AbstractPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polygon"/>
+        <Class IRI="#AbstractRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polyline"/>
+        <Class IRI="#AbstractCurve"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RRR"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rectangle"/>
+        <Class IRI="#AbstractRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RolePlayer"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shape"/>
+        <Class IRI="#SpatialUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialUnit"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilType"/>
+        <Class IRI="#ConditionalRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilType"/>
+        <Class IRI="#ConditionalRight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialSource"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialUnit"/>
+        <Class IRI="#VersionedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnofficialLandUseRight"/>
+        <Class IRI="#RRR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetationCharacteristic"/>
+        <Class IRI="#ConditionalRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetationCharacteristic"/>
+        <Class IRI="#ConditionalRight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WildlifeEcosystem"/>
+        <Class IRI="#BAUnit"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CondRestrictionHindersRight"/>
+        <ObjectProperty IRI="#RightHinderedByCondRestriction"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CondRightFavorsRight"/>
+        <ObjectProperty IRI="#RightFavoredByCondRight"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CondRestrictionHindersRight"/>
+        <Class IRI="#ConditionalRestriction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CondRightFavorsRight"/>
+        <Class IRI="#ConditionalRight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PartyFacesCondRRR"/>
+        <Class IRI="#ConditionalRRR"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBeginLifeVersion"/>
+        <Class IRI="#VersionedObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEndLifeVersion"/>
+        <Class IRI="#VersionedObject"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBeginLifeVersion"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEndLifeVersion"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasShare"/>
+        <Datatype IRI="#share"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTotalShare"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DatatypeDefinition>
+        <Datatype IRI="#share"/>
+        <Datatype IRI="#share"/>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
